@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 900 240">
+<style>text{font-family:system-ui,-apple-system,sans-serif;fill:#17202a}.title{font-size:22px;font-weight:650}.label{font-size:15px}.value{font-size:14px;font-variant-numeric:tabular-nums}.note{font-size:12px;fill:#465363}.bar{fill:#3478c8}.grid{stroke:#d9e0e8;stroke-width:1}</style>
+<title id="title">Decision-log formatting: delivery-to-Send</title>
+<desc id="desc">Horizontal bars compare latency values in ns. 30 randomized pairs; 10 market-data sends per run</desc>
+<text class="title" x="24" y="36">Decision-log formatting: delivery-to-Send</text>
+<text class="note" x="220" y="60">Latency (ns)</text>
+<line class="grid" x1="220.0" y1="70" x2="220.0" y2="162"/>
+<text class="note" x="220.0" y="180" text-anchor="middle">0</text>
+<line class="grid" x1="347.5" y1="70" x2="347.5" y2="162"/>
+<text class="note" x="347.5" y="180" text-anchor="middle">119.8</text>
+<line class="grid" x1="475.0" y1="70" x2="475.0" y2="162"/>
+<text class="note" x="475.0" y="180" text-anchor="middle">239.5</text>
+<line class="grid" x1="602.5" y1="70" x2="602.5" y2="162"/>
+<text class="note" x="602.5" y="180" text-anchor="middle">359.2</text>
+<line class="grid" x1="730.0" y1="70" x2="730.0" y2="162"/>
+<text class="note" x="730.0" y="180" text-anchor="middle">479</text>
+<text class="label" x="208" y="98" text-anchor="end">Original</text>
+<rect class="bar" x="220" y="81" width="510.0" height="24" rx="4"/>
+<text class="value" x="738.0" y="98">479</text>
+<text class="label" x="208" y="140" text-anchor="end">Formatter</text>
+<rect class="bar" x="220" y="123" width="265.6" height="24" rx="4"/>
+<text class="value" x="493.6" y="140">249.5</text>
+<text class="note" x="24" y="220">30 randomized pairs; 10 market-data sends per run</text>
+</svg>

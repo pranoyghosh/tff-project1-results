@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 900 324">
+<style>text{font-family:system-ui,-apple-system,sans-serif;fill:#17202a}.title{font-size:22px;font-weight:650}.label{font-size:15px}.value{font-size:14px;font-variant-numeric:tabular-nums}.note{font-size:12px;fill:#465363}.bar{fill:#3478c8}.grid{stroke:#d9e0e8;stroke-width:1}</style>
+<title id="title">Old callback measure: four-way comparison</title>
+<desc id="desc">Horizontal bars compare latency values in ns. 30 randomized quadruples; median of each run&#x27;s all-callback mean</desc>
+<text class="title" x="24" y="36">Old callback measure: four-way comparison</text>
+<text class="note" x="220" y="60">Latency (ns)</text>
+<line class="grid" x1="220.0" y1="70" x2="220.0" y2="246"/>
+<text class="note" x="220.0" y="264" text-anchor="middle">0</text>
+<line class="grid" x1="347.5" y1="70" x2="347.5" y2="246"/>
+<text class="note" x="347.5" y="264" text-anchor="middle">266.1</text>
+<line class="grid" x1="475.0" y1="70" x2="475.0" y2="246"/>
+<text class="note" x="475.0" y="264" text-anchor="middle">532.1</text>
+<line class="grid" x1="602.5" y1="70" x2="602.5" y2="246"/>
+<text class="note" x="602.5" y="264" text-anchor="middle">798.2</text>
+<line class="grid" x1="730.0" y1="70" x2="730.0" y2="246"/>
+<text class="note" x="730.0" y="264" text-anchor="middle">1064</text>
+<text class="label" x="208" y="98" text-anchor="end">Original</text>
+<rect class="bar" x="220" y="81" width="504.9" height="24" rx="4"/>
+<text class="value" x="732.9" y="98">1,054</text>
+<text class="label" x="208" y="140" text-anchor="end">Risk only</text>
+<rect class="bar" x="220" y="123" width="133.0" height="24" rx="4"/>
+<text class="value" x="361.0" y="140">277.5</text>
+<text class="label" x="208" y="182" text-anchor="end">Logging only</text>
+<rect class="bar" x="220" y="165" width="510.0" height="24" rx="4"/>
+<text class="value" x="738.0" y="182">1,064</text>
+<text class="label" x="208" y="224" text-anchor="end">Both changes</text>
+<rect class="bar" x="220" y="207" width="135.2" height="24" rx="4"/>
+<text class="value" x="363.2" y="224">282.1</text>
+<text class="note" x="24" y="304">30 randomized quadruples; median of each run&#x27;s all-callback mean</text>
+</svg>

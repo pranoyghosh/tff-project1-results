@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 900 282">
+<style>text{font-family:system-ui,-apple-system,sans-serif;fill:#17202a}.title{font-size:22px;font-weight:650}.label{font-size:15px}.value{font-size:14px;font-variant-numeric:tabular-nums}.note{font-size:12px;fill:#465363}.bar{fill:#3478c8}.grid{stroke:#d9e0e8;stroke-width:1}</style>
+<title id="title">WAL sync cost: group commit comparison</title>
+<desc id="desc">Horizontal bars compare latency values in us. 30 randomized triplets; 514 market-data sends per run; no durability guarantee</desc>
+<text class="title" x="24" y="36">WAL sync cost: group commit comparison</text>
+<text class="note" x="220" y="60">Latency (us)</text>
+<line class="grid" x1="220.0" y1="70" x2="220.0" y2="204"/>
+<text class="note" x="220.0" y="222" text-anchor="middle">0</text>
+<line class="grid" x1="347.5" y1="70" x2="347.5" y2="204"/>
+<text class="note" x="347.5" y="222" text-anchor="middle">8.547</text>
+<line class="grid" x1="475.0" y1="70" x2="475.0" y2="204"/>
+<text class="note" x="475.0" y="222" text-anchor="middle">17.09</text>
+<line class="grid" x1="602.5" y1="70" x2="602.5" y2="204"/>
+<text class="note" x="602.5" y="222" text-anchor="middle">25.64</text>
+<line class="grid" x1="730.0" y1="70" x2="730.0" y2="204"/>
+<text class="note" x="730.0" y="222" text-anchor="middle">34.19</text>
+<text class="label" x="208" y="98" text-anchor="end">No durable WAL</text>
+<rect class="bar" x="220" y="81" width="1.9" height="24" rx="4"/>
+<text class="value" x="229.9" y="98">0.125</text>
+<text class="label" x="208" y="140" text-anchor="end">Group commit</text>
+<rect class="bar" x="220" y="123" width="282.5" height="24" rx="4"/>
+<text class="value" x="510.5" y="140">18.94</text>
+<text class="label" x="208" y="182" text-anchor="end">Sync each order</text>
+<rect class="bar" x="220" y="165" width="510.0" height="24" rx="4"/>
+<text class="value" x="738.0" y="182">34.19</text>
+<text class="note" x="24" y="262">30 randomized triplets; 514 market-data sends per run; no durability guarantee</text>
+</svg>

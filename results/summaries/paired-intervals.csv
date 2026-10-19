@@ -1,0 +1,7 @@
+experiment,contrast,metric,median_improvement,ci95_low,ci95_high,unit,pairs,notes
+top-of-book,scan minus cached top,delivery-to-Send median,49729.5,49625,50354,ns,30,"All pairs favored cached top"
+decision-log,original minus formatter,delivery-to-Send median,229,228.75,250.25,ns,30,"All pairs favored formatter; 10 sends per run"
+position fixture,baseline minus risk-only,delivery-to-Send median,41,20.5,41.75,ns,30,"23 of 30 pairs favored risk-only; 30 sends per run"
+position fixture,baseline minus logging-only,delivery-to-Send median,228.5,208.5,229.5,ns,30,"All 30 pairs favored logging-only; 30 sends per run"
+position fixture,baseline minus combined,delivery-to-Send median,249.75,229.5,250.5,ns,30,"All 30 pairs favored combined; 30 sends per run"
+group-commit,sync each order minus group commit,delivery-to-Send median,15.35425,15.13575,15.698,us,30,"All pairs favored group commit"

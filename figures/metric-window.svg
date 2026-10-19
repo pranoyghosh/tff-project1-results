@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 900 210">
+<style>text{font-family:system-ui,-apple-system,sans-serif;fill:#17202a}.title{font-size:22px;font-weight:650}.label{font-size:16px}.note{font-size:13px;fill:#465363}.box{fill:#edf4fc;stroke:#3478c8;stroke-width:2}.line{stroke:#3478c8;stroke-width:3;marker-end:url(#arrow)}</style>
+<title id="title">Delivery-to-Send measurement window</title>
+<desc id="desc">Measure from delivery into the application to the application's Send call. Network travel and exchange processing are outside the window.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#3478c8"/></marker></defs>
+<text class="title" x="24" y="36">Corrected application latency measure</text>
+<rect class="box" x="30" y="75" width="180" height="58" rx="8"/><text class="label" x="120" y="110" text-anchor="middle">Delivery entry</text>
+<line class="line" x1="210" y1="104" x2="685" y2="104"/><text class="label" x="448" y="92" text-anchor="middle">application work</text>
+<rect class="box" x="690" y="75" width="180" height="58" rx="8"/><text class="label" x="780" y="110" text-anchor="middle">Send entry</text>
+<text class="note" x="30" y="174">Measured: wall time from delivery into the application to its Send call.</text>
+<text class="note" x="30" y="194">Not measured: network travel after Send or exchange processing.</text>
+</svg>

@@ -1,0 +1,10 @@
+file,source_artifact,description
+results/summaries/chart-data.csv,selected aggregate values from recorded result summaries,Chart input data
+results/summaries/paired-intervals.csv,paired-summary.csv files for selected comparisons,Paired median differences and bootstrap intervals
+results/methods/measurement.md,experiment analysis notes,Metric definition and limits
+results/methods/top-of-book.md,top-of-book experiment summary,Source and method details
+results/methods/hill-climb.md,four-way hill-climb result summary,Source and method details
+results/methods/position-scenario.md,position fixture four-way result summary,Source and method details
+results/methods/risk-control.md,large synthetic risk comparison summary,Source and method details
+results/methods/group-commit.md,final WAL group-commit result summary,Source and method details
+figures/*.svg,scripts/render_charts.py,Generated charts from chart-data.csv or the documented metric-window diagram

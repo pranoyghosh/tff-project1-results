@@ -13,6 +13,7 @@ aggregate results.
 - [Risk control on the larger feed](figures/risk-control-large.svg)
 - [Decision-log formatting](figures/log-formatting.svg)
 - [WAL sync comparison](figures/group-commit.svg)
+- [Execution-report delivery-to-Send samples](results/summaries/execution-report-summary.csv)
 
 The charts use the compact values in [`results/summaries/chart-data.csv`](results/summaries/chart-data.csv).
 Run `python3 scripts/render_charts.py` to rebuild them. The script uses only
@@ -32,6 +33,27 @@ the Python standard library.
 These results apply to the listed source versions, compiler, machine, and
 scenarios. They do not show live-market or network latency. Read the method
 notes before using a chart as evidence.
+
+## Execution-report delivery-to-Send samples
+
+The corrected analyzer also measured sends caused by execution reports. In
+`sweep.scn`, each run had 13 report deliveries. Twelve caused no send. One
+caused a send. The files below include all 30 run-level samples for each
+source and compiler, plus a summary with quartiles and the median.
+
+| Environment | Original median | Status-check median |
+|---|---:|---:|
+| macOS Apple Clang 17 | 854 ns | 666.5 ns |
+| Docker GCC 12 | 416 ns | 417 ns |
+| Docker Clang 21 | 375 ns | 416 ns |
+
+These early runs were not a dedicated randomized paired test for the
+execution-report path. Treat these medians as descriptive. They do not support
+a general claim that status checks improve execution-report delivery-to-Send
+latency. The per-run values are in
+[`execution-report-per-run.csv`](results/summaries/execution-report-per-run.csv);
+the grouped values are in
+[`execution-report-summary.csv`](results/summaries/execution-report-summary.csv).
 
 These are reproducible, workload-specific simulator measurements, not
 live-market or end-to-end network benchmarks. The supplied fixtures provide

@@ -1,6 +1,8 @@
 file,source_artifact,description
 results/summaries/chart-data.csv,selected aggregate values from recorded result summaries,Chart input data
 results/summaries/paired-intervals.csv,paired-summary.csv files for selected comparisons,Paired median differences and bootstrap intervals
+results/summaries/execution-report-per-run.csv,delivery-to-send analysis per-run outputs,Execution-report-caused send latency samples from 30 runs per source and environment
+results/summaries/execution-report-summary.csv,delivery-to-send analysis summary outputs,Execution-report-caused send latency quartiles and medians
 results/methods/measurement.md,experiment analysis notes,Metric definition and limits
 results/methods/top-of-book.md,top-of-book experiment summary,Source and method details
 results/methods/hill-climb.md,four-way hill-climb result summary,Source and method details

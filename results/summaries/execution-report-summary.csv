@@ -1,0 +1,7 @@
+environment,compiler,variant,source_commit,scenario,scenario_sha256,runs,report_deliveries_per_run,deliveries_without_send_per_run,sends_per_run,q1_delivery_to_send_ns,median_delivery_to_send_ns,q3_delivery_to_send_ns,min_delivery_to_send_ns,max_delivery_to_send_ns
+docker-linux-arm64-clang21,clang version 21.1.8 (RESF 21.1.8-1.module+el8.10.0+40180+8e26bdb3),original,484a0a0,sweep.scn,3f15e996714bdbef465d7f252ef059e7fc2229b3109471cdb1b6ba29d20be310,30,13,12,1,375.0,375.0,416.0,375.0,458.0
+docker-linux-arm64-clang21,clang version 21.1.8 (RESF 21.1.8-1.module+el8.10.0+40180+8e26bdb3),status-check,f6e741f,sweep.scn,3f15e996714bdbef465d7f252ef059e7fc2229b3109471cdb1b6ba29d20be310,30,13,12,1,375.0,416.0,417.0,375.0,625.0
+docker-linux-arm64-gcc12,g++ (GCC) 12.1.1 20220628 (Red Hat 12.1.1-3),original,484a0a0,sweep.scn,3f15e996714bdbef465d7f252ef059e7fc2229b3109471cdb1b6ba29d20be310,30,13,12,1,375.0,416.0,417.0,334.0,459.0
+docker-linux-arm64-gcc12,g++ (GCC) 12.1.1 20220628 (Red Hat 12.1.1-3),status-check,f6e741f,sweep.scn,3f15e996714bdbef465d7f252ef059e7fc2229b3109471cdb1b6ba29d20be310,30,13,12,1,416.0,417.0,458.0,375.0,625.0
+macos-arm64-appleclang17,Apple clang version 17.0.0 (clang-1700.6.4.2),original,484a0a0,sweep.scn,3f15e996714bdbef465d7f252ef059e7fc2229b3109471cdb1b6ba29d20be310,30,13,12,1,666.0,854.0,958.75,625.0,1916.0
+macos-arm64-appleclang17,Apple clang version 17.0.0 (clang-1700.6.4.2),status-check,f6e741f,sweep.scn,3f15e996714bdbef465d7f252ef059e7fc2229b3109471cdb1b6ba29d20be310,30,13,12,1,625.0,666.5,739.75,583.0,1292.0
